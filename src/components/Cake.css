@@ -788,7 +788,7 @@ font-family: 'Source Sans Pro', sans-serif;
     top: 25px;
     width: 9px;
 }
-.one_number:after {
+/* .one_number:after {
     content: "";
     height: 5px;
     width: 5px;
@@ -796,7 +796,7 @@ font-family: 'Source Sans Pro', sans-serif;
     background: #c6c6c6;
     top: 0px;
     left: 0px;
-}
+} */
 .one_number:before {
     content: "";
     height: 25px;
@@ -808,11 +808,11 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 .seven_number {
     position: absolute;
-    right: 147px;
+    right: 155px;
     top: 25px;
-    width: 14px;
+    width: 9px;
 }
-.seven_number:after {
+/* .seven_number:after {
     content: "";
     height: 5px;
     width: 20px;
@@ -820,17 +820,15 @@ font-family: 'Source Sans Pro', sans-serif;
     background: #c6c6c6;
     top: 0px;
     left: -2px;
-}
+} */
 .seven_number:before {
     content: "";
-    height: 27px;
+    height: 25px;
     width: 5px;
     position: absolute;
     background: #c6c6c6;
     top: 0px;
     right: 0px;
-    -webkit-transform: rotate(20deg);
-    transform: rotate(20deg);
 }
 .seven_flame {
     height: 12px;
