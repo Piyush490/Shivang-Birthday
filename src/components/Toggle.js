@@ -28,13 +28,13 @@ const Toggle = () => {
   return (
     <Wrapper>
       { themeState.dark === true ? (
-      <div>
+      <div style={{height:"50%"}}>
           <Cake />
           <Decorate />
-      </div> ):(<div>
+      </div> ):(
+      <div style={{height:"5%"}}>
            <h1>Turn the Lights On!!</h1>
-           <p style={{color:"white"}}>Swipe down </p>
-           </div>
+     </div>
            )}
         <Button style={{float:"top"}}onClick={() => themeState.toggle()}>
           {"Click Me"}
