@@ -1,11 +1,15 @@
 import React from 'react';
-
-import BackgroundVideo from './components/BackgroundVideo/BackgroundVideo';
+import Decorate from './components/Decorate'
+import BackgroundVideo from './components/BackgroundVideo';
 import './App.css';
+import Cake from './components/Cake';
 
 function App() {
   return (
-    <BackgroundVideo />
+    <div>
+    <Cake />
+    <Decorate />
+    </div>
   );
 }
 
